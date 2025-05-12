@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de letra mensual</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h2>Calculadora de letra mensual</h2>
+
+    <label for="metros">Metros cuadrados:</label>
+    <input type="number" id="metros" placeholder="Ej. 100">
+
+    <label for="abono">Abono:</label>
+    <input type="number" id="abono" placeholder="Ej. 5000">
+
+    <label for="anos">Años de pago:</label>
+    <input type="number" id="anos" placeholder="Ej. 7">
+
+    <button onclick="calcularTasa()">Calcular</button>
+
+    <p id="resultado"></p>
+  </div>
+
+  <script src="tasamensual.js"></script>
+</body>
+</html>
